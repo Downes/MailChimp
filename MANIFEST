@@ -3,4 +3,8 @@ Makefile.PL
 MANIFEST
 README
 t/NewModule.t
-lib/NewModule.pm
+lib/MailChimp.pm
+lib/MailChimp/Campaigns.pm
+lib/MailChimp/Lists.pm
+lib/MailChimp/Templates.pm
+lib/MailChimp/Request.pm

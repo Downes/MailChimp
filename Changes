@@ -1,6 +1,6 @@
 Revision history for Perl extension NewModule.
 
-0.01  Sun Mar 11 14:40:50 2018
-	- original version; created by h2xs 1.23 with options
+0.01  Mon Jan 25 11:55:50 2021
+	- original version; created by Stephen Downes with options
 		-AXc -n NewModule
 
