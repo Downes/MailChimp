@@ -23,10 +23,12 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
+```
   local::lib; # sets up a local lib at ~/perl5
   WWW::Curl::Easy;
   JSON;
   Digest::MD5;
+```
 
 local::lib allows implementation on Reclaim and probably not otherwise needed,
 and if it breaks your implementation you can comment it out.
@@ -43,6 +45,7 @@ See https://mailchimp.com/developer/marketing/api/
 
 =head1 SYNOPSIS
 
+```
 use MailChimp;
 
 my $account = MailChimp->new({
@@ -91,6 +94,7 @@ my $template_id = 69461;
 
 	$campaign->send();
 
+```
 =head1 DESCRIPTION
 
 Implements a basic campaign creation and send topredefined email list in MailChimp.
